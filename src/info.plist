@@ -19,6 +19,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>C651E452-AFBC-433D-B672-949D8B5115EF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>477D6FF0-EA6C-4EDA-9B94-ABC7BAA6BB03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Alfonso Gómez-Arzola</string>
@@ -30,6 +41,21 @@
 	<string>Shrug</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>¯\_(ツ)_/¯</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>F75665AC-D4E0-4D00-98AC-B2372ACD9529</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -57,12 +83,33 @@
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
-				<string>¯\_(ツ)_/¯</string>
+				<string>ᕕ( ᐛ )ᕗ</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>F75665AC-D4E0-4D00-98AC-B2372ACD9529</string>
+			<string>477D6FF0-EA6C-4EDA-9B94-ABC7BAA6BB03</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>strut</string>
+				<key>subtext</key>
+				<string>Copy ᕕ( ᐛ )ᕗ to the clipboard</string>
+				<key>text</key>
+				<string>Strut</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C651E452-AFBC-433D-B672-949D8B5115EF</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -71,10 +118,20 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>477D6FF0-EA6C-4EDA-9B94-ABC7BAA6BB03</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
 		<key>AC3DAD04-0578-4397-B89D-3045111F503C</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
+		</dict>
+		<key>C651E452-AFBC-433D-B672-949D8B5115EF</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
 		</dict>
 		<key>F75665AC-D4E0-4D00-98AC-B2372ACD9529</key>
 		<dict>
